@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Muguntharajan M - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="profile">
+        <img src="IMG_20250720_213305809_HDR_AE-2.jpg" 
+             alt="Muguntharajan M" 
+             class="profile-img"
+             onerror="this.onerror=null;this.src='default-profile.png';">
+        <div>
+          <h1>Muguntharajan M</h1>
+          <p class="title">Electronics and Communication Engineer</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#linkedin">LinkedIn</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="card" tabindex="0">
+        <h2>About Me</h2>
+        <p>
+          Based in Karaikudi, India.<br>
+          Provided technical support in Embedded Systems, IoT, Mechatronics, and Robotics for educational institutions.<br>
+          Conducted seminars, workshops, and technical demonstrations across Tamil Nadu, Kerala & Andhra Pradesh.<br>
+          Skilled in customized electronic lab equipment, integrating IoT, AIoT & Automation.<br>
+          Passionate about driving student and faculty skill development.
+        </p>
+      </section>
+
+      <section id="resume" class="card" tabindex="0">
+        <h2>Resume</h2>
+        <ul>
+          <li><span class="label">Role:</span> Customer Support and Development Engineer,<br>Silicon Systems, Coimbatore (2023–2025)</li>
+          <li>
+            <span class="label">Education:</span>
+            <ul>
+              <li>B.E. Electronics & Communication Engineering,<br>Government College of Engineering, Bodinayakanur (2020–2023), GPA: 7.5 (82%)</li>
+              <li>Diploma in Electronics & Communication,<br>NS Polytechnic College, Karaikudi (2015–2018)</li>
+            </ul>
+          </li>
+          <li><span class="label">Certificates:</span> Internship – Industrial Embedded with AI and IoT, NSIC Limited</li>
+        </ul>
+        <a href="MUGUNTHARAJAN-M.pdf" target="_blank" class="btn" id="resume-link">Download My Resume (PDF)</a>
+        <p id="resume-warning" class="warning" style="display:none;">Resume file not found.</p>
+      </section>
+
+      <section id="linkedin" class="card" tabindex="0">
+        <h2>LinkedIn</h2>
+        <a href="https://www.linkedin.com/in/muguntharajan12?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn linkedin-btn">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn logo" class="icon">
+          Connect with me
+        </a>
+      </section>
+
+      <section id="projects" class="card" tabindex="0">
+        <h2>Projects & Highlights</h2>
+        <ul>
+          <li><strong>Customized Lab Equipment:</strong> Designed & deployed electronics labs for educational use.</li>
+          <li><strong>Skill Development Programs:</strong> Led workshops and training on IoT, Mechatronics, Automation.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card" tabindex="0">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <div><span class="icon">📞</span> <a href="tel:+917010325816">7010325816</a></div>
+          <div><span class="icon">✉️</span> <a href="mailto:muguntharajan1205@gmail.com">muguntharajan1205@gmail.com</a></div>
+          <div><span class="icon">📍</span> 20/1 Barathidasan St, Karaikudi 630001</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 Muguntharajan M
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
